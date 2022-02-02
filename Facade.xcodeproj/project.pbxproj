@@ -16,6 +16,9 @@
 		5BF11F0127AAB0D40052019C /* FacadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11F0027AAB0D40052019C /* FacadeTests.swift */; };
 		5BF11F0B27AAB0D50052019C /* FacadeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11F0A27AAB0D50052019C /* FacadeUITests.swift */; };
 		5BF11F0D27AAB0D50052019C /* FacadeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11F0C27AAB0D50052019C /* FacadeUITestsLaunchTests.swift */; };
+		5BF11F1A27AAB1A70052019C /* ImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11F1927AAB1A70052019C /* ImageDataProvider.swift */; };
+		5BF11F1C27AAB2EC0052019C /* PathProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11F1B27AAB2EC0052019C /* PathProvider.swift */; };
+		5BF11F1E27AAB3740052019C /* ImageSaverFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11F1D27AAB3740052019C /* ImageSaverFacade.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		5BF11F0627AAB0D50052019C /* FacadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF11F0A27AAB0D50052019C /* FacadeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeUITests.swift; sourceTree = "<group>"; };
 		5BF11F0C27AAB0D50052019C /* FacadeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BF11F1927AAB1A70052019C /* ImageDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataProvider.swift; sourceTree = "<group>"; };
+		5BF11F1B27AAB2EC0052019C /* PathProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathProvider.swift; sourceTree = "<group>"; };
+		5BF11F1D27AAB3740052019C /* ImageSaverFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaverFacade.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				5BF11EF227AAB0D40052019C /* Assets.xcassets */,
 				5BF11EF427AAB0D40052019C /* LaunchScreen.storyboard */,
 				5BF11EF727AAB0D40052019C /* Info.plist */,
+				5BF11F1927AAB1A70052019C /* ImageDataProvider.swift */,
+				5BF11F1B27AAB2EC0052019C /* PathProvider.swift */,
+				5BF11F1D27AAB3740052019C /* ImageSaverFacade.swift */,
 			);
 			path = Facade;
 			sourceTree = "<group>";
@@ -259,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BF11EEE27AAB0D40052019C /* ViewController.swift in Sources */,
+				5BF11F1E27AAB3740052019C /* ImageSaverFacade.swift in Sources */,
 				5BF11EEA27AAB0D40052019C /* AppDelegate.swift in Sources */,
+				5BF11F1C27AAB2EC0052019C /* PathProvider.swift in Sources */,
+				5BF11F1A27AAB1A70052019C /* ImageDataProvider.swift in Sources */,
 				5BF11EEC27AAB0D40052019C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
